@@ -7,3 +7,15 @@
 //
 
 import Foundation
+
+class Car {
+    var brand: String?
+    
+    init(brand: String) {
+        self.brand = brand
+    }
+    
+    deinit {
+        print("Car deinit")
+    }
+}
